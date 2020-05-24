@@ -1729,9 +1729,9 @@ html-minifier@^4.0.0:
     relateurl "^0.2.7"
     uglify-js "^3.5.1"
 
-"html-webpack-plugin@git://github.com/ScriptedAlchemy/html-webpack-plugin#master":
+"html-webpack-plugin@https://github.com/ScriptedAlchemy/html-webpack-plugin#master":
   version "4.0.0-beta.8"
-  resolved "git://github.com/ScriptedAlchemy/html-webpack-plugin#db1e0cb7aa89d23212cd87a8958566420002c24d"
+  resolved "https://github.com/ScriptedAlchemy/html-webpack-plugin#db1e0cb7aa89d23212cd87a8958566420002c24d"
   dependencies:
     html-minifier "^4.0.0"
     loader-utils "^1.2.3"
@@ -3665,9 +3665,9 @@ webpack-sources@^1.4.3:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-"webpack@git://github.com/webpack/webpack.git#dev-1":
-  version "5.0.0-beta.13"
-  resolved "git://github.com/webpack/webpack.git#bdf66521dff70026c87541b7e18e18fc11f490d2"
+"webpack@https://github.com/webpack/webpack.git#dev-1":
+  version "5.0.0-beta.15"
+  resolved "https://github.com/webpack/webpack.git#5887c20ab075b9765f1d11abd142e848d35995ae"
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"

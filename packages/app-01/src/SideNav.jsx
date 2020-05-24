@@ -63,16 +63,6 @@ export default function SideNav() {
         <ListItem button component={Link} to="/routing/foo">
           <ListItemText primary="Routing" />
         </ListItem>
-        <ListSubheader>Apps</ListSubheader>
-        <ListItem button component="a" href="http://localhost:3001">
-          <ListItemText primary="App #1" secondary="http://localhost:3001" />
-        </ListItem>
-        <ListItem button component="a" href="http://localhost:3002">
-          <ListItemText primary="App #2" secondary="http://localhost:3002" />
-        </ListItem>
-        <ListItem button component="a" href="http://localhost:3003">
-          <ListItemText primary="App #3" secondary="http://localhost:3003" />
-        </ListItem>
       </List>
     </Drawer>
   );

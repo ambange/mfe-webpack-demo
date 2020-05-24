@@ -1,4 +1,3 @@
-import Box from "@material-ui/core/Box";
 import Link from "@material-ui/core/Link";
 import { Paper } from "@material-ui/core";
 import React from "react";

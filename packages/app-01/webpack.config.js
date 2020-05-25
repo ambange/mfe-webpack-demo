@@ -42,14 +42,12 @@ module.exports = {
       library: { type: "var", name: "app_01" },
       filename: "remoteEntry.js",
       remotes: {
-        app_02: "app_02",
-        app_03: "app_03"
+        app_02: "app_02"
       },
       exposes: {
-        SideNav: "./src/SideNav",
         Page: "./src/Page"
       },
-      shared: ["react", "react-dom", "@material-ui/core", "react-router-dom"]
+      shared: ["react", "react-dom", "@material-ui/core"]
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html"

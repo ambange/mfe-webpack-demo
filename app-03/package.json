@@ -15,8 +15,8 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "start": "webpack --watch",
-    "build": "webpack --mode production",
-    "serve": "serve dist -p 3003"
+    "start": "node_modules/.bin/webpack --watch",
+    "build": "node_modules/.bin/webpack --mode production",
+    "serve": "node_modules/.bin/serve dist -p 3003"
   }
 }

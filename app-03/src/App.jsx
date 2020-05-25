@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "app-02/Button";
 import React from "react";
 
 const Page = React.lazy(() => import("app_01/Page"));

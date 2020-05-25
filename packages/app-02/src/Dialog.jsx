@@ -9,7 +9,7 @@ import {
 
 import React from "react";
 
-function DialogComponent() {
+function DialogComponent({content, buttonText}) {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -23,14 +23,13 @@ function DialogComponent() {
   return (
     <div>
       <Button variant="contained" color="primary" onClick={handleClickOpen}>
-        Open Dialog
+        {buttonText}
       </Button>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Dialog Example</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            This is a dialog from the Material UI app rendered in a React{" "}
-            <code>Portal</code>.
+            {content}
           </DialogContentText>
         </DialogContent>
         <DialogActions>

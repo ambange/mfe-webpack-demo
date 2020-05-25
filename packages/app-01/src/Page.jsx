@@ -3,7 +3,7 @@ import {
   Toolbar,
   Typography,
   createStyles,
-  makeStyles
+  makeStyles,
 } from "@material-ui/core";
 
 import React from "react";
@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme =>
   })
 );
 
-function Page({ title, children }) {
+function Page({title, children}) {
   const classes = useStyles();
 
   return (
